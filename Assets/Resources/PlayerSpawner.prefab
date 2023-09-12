@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1834708150536326771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834708150536326773}
+  - component: {fileID: 1834708150536326770}
+  m_Layer: 0
+  m_Name: PlayerSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834708150536326773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834708150536326771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1834708150536326770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834708150536326771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f468a387cbe2704b8402f1343bb30b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefabs:
+  - {fileID: 3444599569320382626, guid: 6abd5629a21504d41ba76e18b0fd8f9e, type: 3}
+  - {fileID: 649187056835742406, guid: 537e2c129b5645441b8af26ca8ccc8c8, type: 3}
+  - {fileID: 1088894276293240219, guid: 6cd3d29528983824a880263662326d78, type: 3}
+  - {fileID: 1088894276293240219, guid: fc8cc8c1e9c7ac84182c6ea3c3936746, type: 3}
+  - {fileID: 2184474855239923283, guid: 352711d9ca338714299e210973d09a62, type: 3}
+  - {fileID: 105516649526803090, guid: 024fd1940206950469f4f0222fc5be3e, type: 3}
+  - {fileID: 7009218043502480152, guid: 5dd015d1ee8eefd47aef62efde833f5e, type: 3}
+  - {fileID: 3716300339446744301, guid: c51da385797ea124ba5543d14190d0f2, type: 3}
+  - {fileID: 8753578552416125985, guid: dc74ddfe63af6a544a319531bdc278f6, type: 3}
+  - {fileID: 7043075206669367215, guid: 9348c5a5ee7f5f74f8b0d2d2315761fb, type: 3}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  amountOfPlayers: 0
+  cinemachineVirtualCamera: {fileID: 0}
