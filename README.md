@@ -11,7 +11,7 @@ Enhance your gameplay by collecting power-ups from destroyed objects, such as cr
 ## **Throw Water Balloons At Your Enemies**
 https://github.com/user-attachments/assets/43984a7f-8269-4d27-aa6d-6b6aa6346fcc
 
-## **Destory Objects!**
+## **Destroy Objects!**
 https://github.com/user-attachments/assets/1c595480-5a53-4300-b365-7b62535f29bd
 
 ## **Obtain Various Powerups**
